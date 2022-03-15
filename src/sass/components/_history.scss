@@ -1,0 +1,59 @@
+.history {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.flex {
+}
+
+.history__wrap-img {
+  width: 298px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.history__wrap-img:last-child {
+  margin-bottom: 0;
+}
+
+.history__wrap {
+}
+
+.history__img {
+  width: 298px;
+  margin-right: 32px;
+}
+
+.history__content {
+  background-color: $bg-header-copy;
+  padding: 120px 56px;
+}
+
+.history__text {
+  font-family: $font-basic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: $active-link-bg-button;
+  margin-bottom: 12px;
+}
+
+.history__title {
+  font-family: $font-basic;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.3;
+  color: $text-color;
+  margin-bottom: 36px;
+}
+
+.history__description {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+}
