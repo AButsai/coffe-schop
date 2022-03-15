@@ -1,0 +1,33 @@
+.process {
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+
+.process__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.process__item {
+  width: 366px;
+  margin-right: 36px;
+}
+
+.process__item:last-child {
+  margin-right: 0;
+}
+
+.process__text {
+  font-family: $font-basic;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.process__span {
+  color: $active-link-bg-button;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
