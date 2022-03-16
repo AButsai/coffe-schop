@@ -5,6 +5,7 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './variables/variables';
+@import './base/reset';
 @import './base/base.scss';
 @import './components/header';
 @import './components/hero';
