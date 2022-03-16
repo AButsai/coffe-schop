@@ -64,13 +64,13 @@
 .card__list {
   display: flex;
 }
+
 .card__item {
   margin-right: 4px;
 }
+
 .card__item:last-child {
   margin-right: 0;
-}
-.card__svg {
 }
 
 .card__title {
@@ -103,6 +103,7 @@
   font-size: 18px;
   line-height: 1.22;
   text-transform: uppercase;
+  border: none;
   padding: 20px 36px;
   color: $text-color;
   background-color: $active-link-bg-button;
