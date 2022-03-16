@@ -108,3 +108,7 @@
   color: $text-color;
   background-color: $active-link-bg-button;
 }
+
+.product__btn:hover {
+  background-color: $hover-btn;
+}
