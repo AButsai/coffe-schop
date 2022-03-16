@@ -1,0 +1,71 @@
+.reservation {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.reservation__flex {
+  display: flex;
+}
+
+.reservation__img {
+  width: 50%;
+}
+
+.reservation__form {
+  width: 50%;
+  text-align: center;
+  padding: 72px 48px;
+  background-color: $bg-header-copy;
+}
+
+.reservation__subtext {
+  font-family: $font-second;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: $active-link-bg-button;
+  margin-bottom: 12px;
+}
+
+.reservation__title {
+  font-family: 'Righteous';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.25;
+  margin-bottom: 56px;
+}
+
+.reservation__input {
+  display: block;
+  width: 100%;
+  font-family: $font-second;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.8;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  background-color: $bg;
+  border: none;
+}
+
+.reservation__input--margin {
+  margin-bottom: 56px;
+}
+
+.reservation__btn {
+  font-family: $font-auxiliary;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  padding: 20px 36px;
+  border: none;
+  color: $text-color;
+  background-color: $active-link-bg-button;
+}
+
+.reservation__btn:hover {
+  background-color: $hover-btn;
+}
