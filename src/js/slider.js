@@ -1,6 +1,4 @@
-// import Swiper from 'swiper';
-
-const swiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
   slidesPerView: 2,
   spaceBetween: 40,
   navigation: {
@@ -22,7 +20,3 @@ const swiper = new Swiper('.swiper', {
     draggable: true,
   },
 });
-
-// swiper.scrollbar.updateSize('120px');
-
-swiper.init();
