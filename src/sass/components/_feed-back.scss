@@ -4,6 +4,9 @@
   text-align: center;
 }
 
+.feed-back__container {
+}
+
 .feed-back__subtitle {
   font-family: $font-second;
   font-weight: 600;
@@ -97,4 +100,88 @@
 }
 
 .feed-back__svg {
+}
+
+.feed-back__swiper {
+  margin-bottom: 36px;
+}
+
+.feed-back__pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-back__pagination-pagination {
+  position: relative;
+  width: 120px;
+  height: 51px;
+}
+
+.swiper-pagination {
+  top: 0;
+  font-family: $font-second;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: left;
+  color: $active-link-bg-button;
+}
+
+.swiper-scrollbar {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.swiper-scrollbar-drag {
+  text-align: left;
+  background-color: $active-link-bg-button;
+  z-index: 15;
+}
+
+.feed-back__pogination-btn {
+  position: relative;
+  display: flex;
+}
+
+.feed-back__button-prev,
+.feed-back__button-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.feed-back__button-prev {
+  background-color: $active-link-bg-button;
+}
+
+.feed-back__button-prev.swiper-button-disabled {
+  background-color: $bg-product-card;
+}
+
+.feed-back__button-prev .feed-back__svg {
+  fill: $bg-product-card;
+}
+
+.feed-back__button-prev.swiper-button-disabled .feed-back__svg {
+  fill: $text-color;
+}
+
+.feed-back__button-next {
+  background-color: $active-link-bg-button;
+  margin-left: 16px;
+}
+
+.feed-back__button-next.swiper-button-disabled {
+  background-color: $bg-product-card;
+}
+
+.feed-back__button-next.swiper-button-disabled .feed-back__svg {
+  fill: $text-color;
 }
