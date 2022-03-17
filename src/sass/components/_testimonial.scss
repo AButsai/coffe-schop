@@ -1,0 +1,92 @@
+.testimonial {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.testimonial__subtitle {
+  font-family: $font-second;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: $active-link-bg-button;
+  margin-bottom: 12px;
+}
+
+.testimonial__title {
+  font-family: $font-basic;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.3;
+  margin-bottom: 56px;
+}
+
+.testimonial__list {
+  display: flex;
+}
+
+.testimonial__item {
+  margin-right: 36px;
+  background-color: $bg-header-copy;
+}
+
+.testimonial__item:last-child {
+  margin-right: 0;
+}
+
+.testimonial__img {
+}
+
+.testimonial__card-wrap {
+  padding: 20px 24px 24px;
+  text-align: left;
+}
+
+.testimonial__author-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.testimonial__date,
+.testimonial__author {
+  font-family: $font-second;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.testimonial__author-span {
+  color: $active-link-bg-button;
+}
+
+.testimonial__date {
+}
+
+.testimonial__header {
+  font-family: $font-basic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+
+.testimonial__btn {
+  display: flex;
+  align-items: center;
+  font-family: $font-second;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: $active-link-bg-button;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.testimonial__svg {
+  margin-left: 8px;
+  fill: $active-link-bg-button;
+}
