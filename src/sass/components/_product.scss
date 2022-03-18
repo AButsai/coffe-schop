@@ -27,6 +27,8 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: $bg-product-card;
   width: 366px;
   margin-right: 36px;
@@ -97,6 +99,27 @@
   color: $active-link-bg-button;
 }
 
+.product__btn-card {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  font-family: $font-second;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  padding: 13px 20px;
+  border: none;
+  color: $text-color;
+  background-color: $active-link-bg-button;
+  margin-bottom: 36px;
+}
+
+.product__svg-card {
+  stroke: $text-color;
+  fill: transparent;
+  margin-right: 12px;
+}
+
 .product__btn {
   font-family: $font-auxiliary;
   font-weight: 700;
@@ -109,6 +132,7 @@
   background-color: $active-link-bg-button;
 }
 
+.product__btn-card:hover,
 .product__btn:hover {
   background-color: $hover-btn;
 }
