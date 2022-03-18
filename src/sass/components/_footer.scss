@@ -32,6 +32,10 @@
   color: $text-color;
 }
 
+.footer__link:hover {
+  color: $active-link-bg-button;
+}
+
 .footer__label {
   position: relative;
   width: 328px;
@@ -71,6 +75,10 @@
 
 .footer__svg {
   fill: $text-color;
+}
+
+.footer__btn:hover {
+  background-color: $hover-btn;
 }
 
 .footer__copyright {
