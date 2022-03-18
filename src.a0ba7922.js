@@ -7,4 +7,4 @@ const e=document.querySelectorAll(".card"),r=document.querySelectorAll(".card__r
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/slider.js"),require("./js/product.js");
 },{"./sass/main.scss":"clu1","./js/slider.js":"wzuc","./js/product.js":"gN5a"}]},{},["Focm"], null)
-//# sourceMappingURL=/coffe-schop/src.528187c2.js.map
+//# sourceMappingURL=/coffe-schop/src.a0ba7922.js.map
